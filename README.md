@@ -23,7 +23,7 @@ To Run the code do following:
 5) Now in the page opened : click on : "Add Firebase to your web app".
 6) Copy the `var config`.
 7) open `/src/app/app.module.ts` in the project.
-8 ) replace : 
+8) replace : 
 `{
   apiKey: "Api Key",
   authDomain: "aut domain",

@@ -32,9 +32,8 @@ To Run the code do following:
   storageBucket: "some app bucket",
   messagingSenderId: "Message ID"
 }`
-
 with `var config`.
-9) Follow further.
+10) Follow further.
 
 
 ## Development server

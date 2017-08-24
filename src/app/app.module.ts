@@ -24,12 +24,12 @@ import { UserComponent } from './user/user.component';
 
 /* Firebase Configuration */
 export const firebaseConfig = {
-  apiKey: "AIzaSyDBqT1U4HQyy21O5GOGeSy-xro5kjZhrYI",
-  authDomain: "todoapp-9652a.firebaseapp.com",
-  databaseURL: "https://todoapp-9652a.firebaseio.com",
-  projectId: "todoapp-9652a",
-  storageBucket: "todoapp-9652a.appspot.com",
-  messagingSenderId: "647199154007"
+  apiKey: "Api Key",
+  authDomain: "aut domain",
+  databaseURL: "someURL",
+  projectId: "Project ID",
+  storageBucket: "some app bucket",
+  messagingSenderId: "Message ID"
 }
 /*Creating the Angular Module.*/
 @NgModule({

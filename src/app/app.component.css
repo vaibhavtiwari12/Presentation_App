@@ -1,0 +1,12 @@
+.tab_li{
+	background: transparent;
+	//background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+.tabs{
+
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+.row{
+	
+	margin-bottom: 0px !important;
+}

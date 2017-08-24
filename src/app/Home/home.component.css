@@ -1,0 +1,52 @@
+	
+
+/*** Header End ***/
+.card-container {
+	/* border:1px solid #d9d9d9; */
+	margin:15px;
+    -webkit-box-shadow: 1px 1px 3px 2px #d9d9d9;
+            box-shadow: 1px 1px 3px 2px #d9d9d9;
+}
+.card-title-card {
+	min-height: 40px;
+	border-bottom: 1px solid #d9d9d9;
+	padding: 10px;
+	font-size:1.2em;
+	font-weight: bolder;
+}
+.card-description {
+	min-height:80px;
+	padding: 10px;
+	font-size:0.8em !important;
+}
+.section-title{
+	padding:15px 15px 0px 15px;
+	font-size:1.5em;
+	font-weight: 600;
+}
+.Done {
+	padding:15px 17px 5px 0px;
+	color: #1a237e;
+}
+.initials-container{
+	border-radius:100%;
+	background:#EE6E73;
+	color:#fff;
+	height: 35px;
+    width: 35px;
+    margin-right:10px;
+    padding-top: 2px;
+}
+.card-desc-font{
+	font-size:1.1em;
+}
+
+@media only screen and (max-width: 990px) {
+   .flex-column {
+   	-webkit-box-orient: vertical;
+   	-webkit-box-direction: normal;
+   	    -ms-flex-direction: column;
+   	        flex-direction: column;
+   }
+} 
+

@@ -1,0 +1,34 @@
+<!-- add task component -->
+<div class="section-heading flex justify-center"><h4>ADD TASK</h4></div>
+  <div class="row formStyle">
+    <form class="col s12" #form="ngForm" (ngSubmit)="onSubmit()" *ngIf = "active">
+      <div class="row">
+	        <div class="input-field col s12">
+	          <input id="title" type="text" name="title" [(ngModel)]="newTask.title" required #title="ngModel"
+	           [ngClass] = "{'has-error' :title.invalid && title.touched}" />
+	          <label for="title">Title</label>
+	          <div class="error-scenario" *ngIf="title.invalid && title.touched">Title is required</div>
+	        </div>
+      </div>
+        <div class="row">
+	        <div class="input-field col s12">
+	          <textarea id="description" class="materialize-textarea" name="description" required 
+	          [(ngModel)]="newTask.description" #description="ngModel" 
+	          [ngClass] = "{'has-error':description.invalid && description.touched}">
+	          </textarea>
+	          <label for="description" >Description</label>
+	          <div class="error-scenario" *ngIf="description.invalid && description.touched">Description is required</div>
+	        </div>
+      </div>
+        <label class="label">Browser Select</label>
+		  <select class="browser-default select" [(ngModel)]="newTask.userID" required name="selected">
+		  	 
+		     <option *ngFor="let user of userList | async" [value]="user.id">{{user.userName}}</option>
+		  </select>
+	  <div class="row">
+       <button class="btn waves-effect waves-light  createTask" type="submit" name="action" [disabled] = "form.invalid">
+       Create Task
+	  </button>
+	  </div>
+    </form>
+  </div>

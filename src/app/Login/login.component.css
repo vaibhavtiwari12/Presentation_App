@@ -1,0 +1,45 @@
+.login-container {
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	width:430px;
+	padding: 5px 25px 20px;
+	margin-top: 50px;
+	border-radius: 5px;
+}
+.section_container {
+	width: 100%;
+
+}
+h6{
+	background: transparent;
+    color: #fff;
+	font-size:0.9em;
+	padding: 6px 0px;
+}
+.h2_login{
+	font-size:2em;
+	background: transparent;
+	color:#fff;
+	padding-bottom: 5px;
+}
+.input{
+    padding: 10px 15px;;
+    background: #fff;
+    width: auto !important;
+    height: 25px;
+    border-radius: 5px;
+}
+.login_button{
+	background: rgba(49, 125, 108, 0.48);
+	height: 48px;
+    line-height: 48px;
+    padding: 0 48px;
+    margin: 0 50px;
+}
+.google_login_container{
+	font-size: 0.75em;
+	color:#fff;
+	height:40px;
+	background:#EE6E73;
+    border-radius: 3px;
+    cursor: pointer;
+}

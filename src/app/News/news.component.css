@@ -1,0 +1,17 @@
+.card-action a,.card-content p{
+	font-size: 0.75em;
+}
+
+.card .card-image img {
+    height: 250px;
+} 
+.card-content-p{
+    //max-height: 66px;
+    word-break:break-word;
+}
+.news-heading{
+	//min-height:60px;
+}
+.card {
+	//min-height: 500px;
+}

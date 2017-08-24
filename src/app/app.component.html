@@ -1,0 +1,15 @@
+<!-- Global Header -->
+<header-page></header-page>
+
+  <!-- Nav Bar - With Tabs -->
+  <div class="row">
+      <ul class="tabs">
+        <li class="tab col s4 tab_li"><a class="white-text" routerLinkActive="active" routerLink="/" [routerLinkActiveOptions]="{ exact: true }"  >ToDo</a></li>
+        <li class="tab col s4 tab_li"><a class="white-text" routerLinkActive="active" routerLink="/News">News</a></li>
+        <li class="tab col s4 tab_li"><a class="white-text" routerLinkActive="active" routerLink="/Urls">PlayGround</a></li>
+      </ul> 
+  </div>
+
+  <!-- Router Component  -->
+  <router-outlet></router-outlet>
+   

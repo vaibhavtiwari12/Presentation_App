@@ -1,0 +1,58 @@
+/* label focus color */
+.input-field input[type=text]:focus + label {
+ color: #1ec7d8;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+ border-bottom: 1px solid #1ec7d8 !important;
+ box-shadow: 0 1px 0 0 #1ec7d8 !important;
+}
+.input-field input,textarea {
+	font-size: 1em !important;
+	font-family: 'Roboto', sans-serif !important;
+}
+.btn {
+	font-size: 1em !important;
+	font-family: 'Roboto', sans-serif !important;
+	height: 50px;
+	background-color : #1ec7d8 ;
+}
+.input-field label {
+	font-size:1em;
+}
+.input-field textarea:focus + label {
+	color: #1ec7d8;
+}
+.input-field textarea:focus {
+ border-bottom: 1px solid #1ec7d8 !important;
+ box-shadow: 0 1px 0 0 #1ec7d8 !important;
+}
+.formStyle {
+	width : 40%;
+	padding-top: 50px;
+}
+.error-scenario{
+	color : red;
+	font-size: 0.7em;
+	 
+}
+.has-error{
+	border-bottom: 1px solid red !important;
+ 	box-shadow: 0 1px 0 0 red !important;
+}
+.select{
+	margin: 10px 2px;
+    width: 98%;
+}
+.label{
+	padding-left:10px;
+    font-size: 1em;
+
+}
+.createTask{
+	margin-top: 20px;
+}
+.section-heading {
+	color:#1ec7d8 !important;
+	text-decoration: underline;
+}

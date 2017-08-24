@@ -1,0 +1,12 @@
+<!-- Header Links -->
+
+	<div class="flex-100 flex justify-right header-link-container">
+		<div *ngIf="!showLogin" class="login-button" >Hey.. {{username}} -></div>
+		<div *ngIf="showLogin" class="login-button" routerLink="/Login">Login</div>
+		<div *ngIf="!showLogin" class="login-button" routerLink="/AddTask">Add Task</div>
+		<div *ngIf="!showLogin" class="login-button" (click)="logout()">Logout</div>
+	</div>
+
+<!-- Global Header -->
+<header class="header flex justify-center align-center">CPW Services</header>
+ 
